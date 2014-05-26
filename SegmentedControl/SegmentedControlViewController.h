@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
+NSString *const PYRefreshBundleName = @"bg.bundle";
+#define kSrcName(file) [PYRefreshBundleName stringByAppendingPathComponent:file]
+
 @interface SegmentedControlViewController : UIViewController
 
 @end

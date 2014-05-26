@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		361A74F6193321F7001E6698 /* bg.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 361A74F5193321F7001E6698 /* bg.bundle */; };
 		364A11D51931F0BF00EDC18D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 364A11D41931F0BF00EDC18D /* Foundation.framework */; };
 		364A11D71931F0BF00EDC18D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 364A11D61931F0BF00EDC18D /* CoreGraphics.framework */; };
 		364A11D91931F0BF00EDC18D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 364A11D81931F0BF00EDC18D /* UIKit.framework */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		361A74F5193321F7001E6698 /* bg.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = bg.bundle; path = SegmentedControl/bg.bundle; sourceTree = "<group>"; };
 		364A11D11931F0BF00EDC18D /* SegmentedControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SegmentedControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		364A11D41931F0BF00EDC18D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		364A11D61931F0BF00EDC18D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -82,6 +84,7 @@
 		364A11C81931F0BF00EDC18D = {
 			isa = PBXGroup;
 			children = (
+				361A74F5193321F7001E6698 /* bg.bundle */,
 				364A11DA1931F0BF00EDC18D /* SegmentedControl */,
 				364A11F91931F0BF00EDC18D /* SegmentedControlTests */,
 				364A11D31931F0BF00EDC18D /* Frameworks */,
@@ -231,6 +234,7 @@
 			files = (
 				364A11ED1931F0BF00EDC18D /* Images.xcassets in Resources */,
 				364A11DF1931F0BF00EDC18D /* InfoPlist.strings in Resources */,
+				361A74F6193321F7001E6698 /* bg.bundle in Resources */,
 				364A11E81931F0BF00EDC18D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -455,6 +459,7 @@
 				364A12051931F0BF00EDC18D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		364A12061931F0BF00EDC18D /* Build configuration list for PBXNativeTarget "SegmentedControlTests" */ = {
 			isa = XCConfigurationList;
@@ -463,6 +468,7 @@
 				364A12081931F0BF00EDC18D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
